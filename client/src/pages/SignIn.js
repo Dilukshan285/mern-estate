@@ -1,7 +1,7 @@
 import React from 'react';
-import {Link, useNavigate} from 'react-router-dom'
+import {Link, useNavigate} from 'react-router-dom';
 import { useState } from 'react';
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch, useSelector} from 'react-redux';
 import { signInStart,signInSuccess,signInFailure } from '../redux/user/userSlice';
 
 const apiURL = "http://localhost:8000"
