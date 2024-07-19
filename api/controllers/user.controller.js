@@ -4,3 +4,7 @@ export const test =(req,res)=>{
     })
 };
 
+export const updateUser = (req,res,next)=>{
+    
+}
+
